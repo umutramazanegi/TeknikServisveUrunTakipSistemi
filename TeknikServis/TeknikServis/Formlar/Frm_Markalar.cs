@@ -17,6 +17,8 @@ namespace TeknikServis.Formlar
             InitializeComponent();
         }
         DbTeknikServisEntities db = new DbTeknikServisEntities();
+        SqlConnection baglanti = new SqlConnection(@"Data Source=UMUT\SQLEXPRESS;Initial Catalog=DbTeknikServis;Integrated Security=True");
+        
         private void FrmMarkalar_Load(object sender, EventArgs e)
         {
             var degerler = db.TBL_URUN.OrderBy(x => x.MARKA).GroupBy(y => y.MARKA).Select(z => new
@@ -32,14 +34,26 @@ namespace TeknikServis.Formlar
             labelControl7.Text = (from x in db.TBL_URUN
                                   orderby x.SATISFIYAT descending
                                   select x.MARKA).FirstOrDefault();
-           // labelControl5.Text = db.maksurunmarka().FirstOrDefault();
+            labelControl5.Text = db.maksurunmarka().FirstOrDefault();
 
-
-        }
-
-        private void panel7_Paint(object sender, PaintEventArgs e)
-        {
-
+            //chart1
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("select MARKA,count(*) from TBL_URUN group by MARKA", baglanti);
+            SqlDataReader dr = komut.ExecuteReader();
+            while (dr.Read())
+            {
+                chartControl1.Series["Series 1"].Points.AddPoint(dr[0].ToString(), int.Parse(dr[1].ToString()));
+            }
+            baglanti.Close();
+            //chart2
+            baglanti.Open();
+            SqlCommand komut2 = new SqlCommand("select TBL_KATEGORI.AD,count(*) as 'Sayı' from TBL_URUN inner join TBL_KATEGORI on TBL_KATEGORI.ID=TBL_URUN.KATEGORI group by TBL_KATEGORI.AD ", baglanti);
+            SqlDataReader dr2 = komut2.ExecuteReader();
+            while (dr2.Read())
+            {
+                chartControl2.Series["Kategoriler"].Points.AddPoint(dr2[0].ToString(), int.Parse(dr2[1].ToString()));
+            }
+            baglanti.Close();
         }
     }
 }

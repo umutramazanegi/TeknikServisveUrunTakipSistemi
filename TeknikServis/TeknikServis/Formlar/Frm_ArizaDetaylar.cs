@@ -24,13 +24,13 @@ namespace TeknikServis.Formlar
             this.Close();
         }
 
-        private void textEdit1_Click(object sender, EventArgs e)
+        private void txtserino_Click(object sender, EventArgs e)
         {
             txtserino.Text = "";
             txtserino.Focus();
         }
 
-        private void textEdit2_Click(object sender, EventArgs e)
+        private void txttarih_Click(object sender, EventArgs e)
         {
             txttarih.Text = DateTime.Now.ToShortDateString();
         }
@@ -48,12 +48,13 @@ namespace TeknikServis.Formlar
             t.SERINO = txtserino.Text;
             t.TARIH = DateTime.Parse(txttarih.Text);
             db.TBL_URUNTAKIP.Add(t);
-
+          //  db.SaveChanges();
+          //  MessageBox.Show("Ürün Arıza Detayları Güncellendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             //2.güncelleme
             TBL_URUNKABUL tb = new TBL_URUNKABUL();
             int urunid = int.Parse(id.ToString());
             var deger = db.TBL_URUNKABUL.Find(urunid);
-          //  deger.UrunDurumDetay = comboBox1.Text;
+            deger.URUNDURUMDETAY = comboBox1.Text;
             db.SaveChanges();
             MessageBox.Show("Ürün Arıza Detayları Güncellendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

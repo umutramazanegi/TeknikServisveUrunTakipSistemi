@@ -79,5 +79,10 @@ namespace TeknikServis.Formlar
                                                      x.AD
                                                  }).ToList();
         }
+
+        private void lookUpEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

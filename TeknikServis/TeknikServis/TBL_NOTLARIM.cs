@@ -18,5 +18,6 @@ namespace TeknikServis
         public string BASLIK { get; set; }
         public string ICERIK { get; set; }
         public Nullable<bool> DURUM { get; set; }
+        public Nullable<System.DateTime> TARIH { get; set; }
     }
 }

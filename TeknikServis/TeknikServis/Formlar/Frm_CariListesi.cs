@@ -46,10 +46,10 @@ namespace TeknikServis.Formlar
            //                                    x.ID,
            //                                    x.SEHIR
            //                                }).ToList();
-            labelControl14.Text = db.TBL_CARİ.Select(x => x.IL).Distinct().Count().ToString();
+            labelControl9.Text = db.TBL_CARİ.Select(x => x.IL).Distinct().Count().ToString();
             labelControl12.Text = db.TBL_CARİ.Select(x => x.ILCE).Distinct().Count().ToString();
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("select top 1 Il from TBL_CARİ group by IL order by count(*) desc", baglanti);
+            SqlCommand komut = new SqlCommand("select top 1 IL from TBL_CARİ group by IL order by count(*) desc", baglanti);
             SqlDataReader dr = komut.ExecuteReader();
             while (dr.Read())
             {

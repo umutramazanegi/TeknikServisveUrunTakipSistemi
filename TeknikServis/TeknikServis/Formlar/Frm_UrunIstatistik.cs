@@ -41,9 +41,9 @@ namespace TeknikServis.Formlar
             labelControl29.Text = (from x in db.TBL_URUN
                                    select
              x.MARKA).Distinct().Count().ToString();
-            //labelControl5.Text = "Arçelik";
-            //labelControl25.Text = db.TBL_URUNKABUL.Count().ToString();
-            //labelControl15.Text = db.makskategoriurun().FirstOrDefault();
+           // labelControl5.Text = "Arçelik";
+            labelControl25.Text = db.TBL_URUNKABUL.Count().ToString();
+            labelControl15.Text = db.makskategoriurunu().FirstOrDefault();
         }
     }
 }

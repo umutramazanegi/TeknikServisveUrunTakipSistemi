@@ -35,28 +35,28 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ArizaListesi));
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.labelControl39 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl38 = new DevExpress.XtraEditors.LabelControl();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl33 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl35 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl37 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl36 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl39 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl38 = new DevExpress.XtraEditors.LabelControl();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.labelControl35 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl33 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(simpleDiagram3D2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
@@ -104,6 +104,26 @@
             this.panelControl1.Size = new System.Drawing.Size(1020, 371);
             this.panelControl1.TabIndex = 30;
             // 
+            // labelControl39
+            // 
+            this.labelControl39.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl39.Appearance.Options.UseFont = true;
+            this.labelControl39.Location = new System.Drawing.Point(91, 51);
+            this.labelControl39.Name = "labelControl39";
+            this.labelControl39.Size = new System.Drawing.Size(779, 40);
+            this.labelControl39.TabIndex = 7;
+            this.labelControl39.Text = resources.GetString("labelControl39.Text");
+            // 
+            // labelControl38
+            // 
+            this.labelControl38.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl38.Appearance.Options.UseFont = true;
+            this.labelControl38.Location = new System.Drawing.Point(407, 20);
+            this.labelControl38.Name = "labelControl38";
+            this.labelControl38.Size = new System.Drawing.Size(213, 25);
+            this.labelControl38.TabIndex = 6;
+            this.labelControl38.Text = "Arızalı Ürün İstatistikleri";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(99)))), ((int)(((byte)(130)))));
@@ -113,123 +133,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(336, 188);
             this.panel3.TabIndex = 35;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(224)))), ((int)(((byte)(143)))));
-            this.panel2.Controls.Add(this.labelControl2);
-            this.panel2.Controls.Add(this.labelControl1);
-            this.panel2.Location = new System.Drawing.Point(1377, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(336, 188);
-            this.panel2.TabIndex = 34;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(36)))), ((int)(((byte)(97)))));
-            this.panel1.Controls.Add(this.labelControl3);
-            this.panel1.Controls.Add(this.labelControl4);
-            this.panel1.Location = new System.Drawing.Point(1035, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(336, 188);
-            this.panel1.TabIndex = 33;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(163)))), ((int)(((byte)(188)))));
-            this.panel5.Controls.Add(this.labelControl22);
-            this.panel5.Controls.Add(this.labelControl21);
-            this.panel5.Location = new System.Drawing.Point(1035, 194);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(336, 188);
-            this.panel5.TabIndex = 32;
-            // 
-            // gridView1
-            // 
-            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(156)))), ((int)(((byte)(218)))));
-            this.gridView1.Appearance.Row.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(209)))), ((int)(((byte)(245)))));
-            this.gridView1.Appearance.Row.Options.UseBackColor = true;
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowGroupPanel = false;
-            // 
-            // gridControl1
-            // 
-            this.gridControl1.Location = new System.Drawing.Point(2, 0);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1027, 759);
-            this.gridControl1.TabIndex = 31;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(105)))), ((int)(((byte)(189)))));
-            this.panel6.Controls.Add(this.labelControl37);
-            this.panel6.Controls.Add(this.labelControl36);
-            this.panel6.Location = new System.Drawing.Point(1719, 194);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(336, 188);
-            this.panel6.TabIndex = 37;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.panel4.Controls.Add(this.labelControl35);
-            this.panel4.Controls.Add(this.labelControl33);
-            this.panel4.Location = new System.Drawing.Point(1377, 194);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(336, 188);
-            this.panel4.TabIndex = 36;
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Georgia", 14F);
-            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Appearance.Options.UseForeColor = true;
-            this.labelControl4.Location = new System.Drawing.Point(89, 12);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(147, 54);
-            this.labelControl4.TabIndex = 1;
-            this.labelControl4.Text = "Mevcut Arızalı \r\nÜrün Sayısı";
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Appearance.Options.UseForeColor = true;
-            this.labelControl3.Location = new System.Drawing.Point(122, 90);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(65, 39);
-            this.labelControl3.TabIndex = 2;
-            this.labelControl3.Text = "584";
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(104, 90);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(127, 39);
-            this.labelControl2.TabIndex = 3;
-            this.labelControl2.Text = "Arçelik";
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Georgia", 14F);
-            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(104, 12);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(153, 54);
-            this.labelControl1.TabIndex = 2;
-            this.labelControl1.Text = "Tadilatı Bitmiş\r\nÜrün Sayısı";
             // 
             // labelControl20
             // 
@@ -255,6 +158,84 @@
             this.labelControl19.TabIndex = 2;
             this.labelControl19.Text = "Parça Bekleyen\r\nÜrün Sayısı";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(224)))), ((int)(((byte)(143)))));
+            this.panel2.Controls.Add(this.labelControl2);
+            this.panel2.Controls.Add(this.labelControl1);
+            this.panel2.Location = new System.Drawing.Point(1377, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(336, 188);
+            this.panel2.TabIndex = 34;
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControl2.Appearance.Options.UseFont = true;
+            this.labelControl2.Appearance.Options.UseForeColor = true;
+            this.labelControl2.Location = new System.Drawing.Point(135, 90);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(127, 39);
+            this.labelControl2.TabIndex = 3;
+            this.labelControl2.Text = "Arçelik";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Georgia", 14F);
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Appearance.Options.UseForeColor = true;
+            this.labelControl1.Location = new System.Drawing.Point(104, 12);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(153, 54);
+            this.labelControl1.TabIndex = 2;
+            this.labelControl1.Text = "Tadilatı Bitmiş\r\nÜrün Sayısı";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(36)))), ((int)(((byte)(97)))));
+            this.panel1.Controls.Add(this.labelControl3);
+            this.panel1.Controls.Add(this.labelControl4);
+            this.panel1.Location = new System.Drawing.Point(1035, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(336, 188);
+            this.panel1.TabIndex = 33;
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControl3.Appearance.Options.UseFont = true;
+            this.labelControl3.Appearance.Options.UseForeColor = true;
+            this.labelControl3.Location = new System.Drawing.Point(122, 90);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(65, 39);
+            this.labelControl3.TabIndex = 2;
+            this.labelControl3.Text = "584";
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Georgia", 14F);
+            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControl4.Appearance.Options.UseFont = true;
+            this.labelControl4.Appearance.Options.UseForeColor = true;
+            this.labelControl4.Location = new System.Drawing.Point(89, 12);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(147, 54);
+            this.labelControl4.TabIndex = 1;
+            this.labelControl4.Text = "Mevcut Arızalı \r\nÜrün Sayısı";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(163)))), ((int)(((byte)(188)))));
+            this.panel5.Controls.Add(this.labelControl22);
+            this.panel5.Controls.Add(this.labelControl21);
+            this.panel5.Location = new System.Drawing.Point(1035, 194);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(336, 188);
+            this.panel5.TabIndex = 32;
+            // 
             // labelControl22
             // 
             this.labelControl22.Appearance.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -279,29 +260,35 @@
             this.labelControl21.TabIndex = 2;
             this.labelControl21.Text = "Mesaj Beklenen \r\nMüşteriler";
             // 
-            // labelControl33
+            // gridView1
             // 
-            this.labelControl33.Appearance.Font = new System.Drawing.Font("Georgia", 14F);
-            this.labelControl33.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl33.Appearance.Options.UseFont = true;
-            this.labelControl33.Appearance.Options.UseForeColor = true;
-            this.labelControl33.Location = new System.Drawing.Point(65, 16);
-            this.labelControl33.Name = "labelControl33";
-            this.labelControl33.Size = new System.Drawing.Size(203, 27);
-            this.labelControl33.TabIndex = 1;
-            this.labelControl33.Text = "Toplam Ürün Sayısı";
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(156)))), ((int)(((byte)(218)))));
+            this.gridView1.Appearance.Row.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(209)))), ((int)(((byte)(245)))));
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.DoubleClick += new System.EventHandler(this.gridView1_DoubleClick_1);
             // 
-            // labelControl35
+            // gridControl1
             // 
-            this.labelControl35.Appearance.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl35.Appearance.ForeColor = System.Drawing.Color.White;
-            this.labelControl35.Appearance.Options.UseFont = true;
-            this.labelControl35.Appearance.Options.UseForeColor = true;
-            this.labelControl35.Location = new System.Drawing.Point(135, 95);
-            this.labelControl35.Name = "labelControl35";
-            this.labelControl35.Size = new System.Drawing.Size(65, 39);
-            this.labelControl35.TabIndex = 2;
-            this.labelControl35.Text = "584";
+            this.gridControl1.Location = new System.Drawing.Point(2, 0);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(1027, 759);
+            this.gridControl1.TabIndex = 31;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(105)))), ((int)(((byte)(189)))));
+            this.panel6.Controls.Add(this.labelControl37);
+            this.panel6.Controls.Add(this.labelControl36);
+            this.panel6.Location = new System.Drawing.Point(1719, 194);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(336, 188);
+            this.panel6.TabIndex = 37;
             // 
             // labelControl37
             // 
@@ -327,25 +314,39 @@
             this.labelControl36.TabIndex = 2;
             this.labelControl36.Text = "İptal Edilen\r\nİşlemler";
             // 
-            // labelControl39
+            // panel4
             // 
-            this.labelControl39.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl39.Appearance.Options.UseFont = true;
-            this.labelControl39.Location = new System.Drawing.Point(91, 51);
-            this.labelControl39.Name = "labelControl39";
-            this.labelControl39.Size = new System.Drawing.Size(779, 40);
-            this.labelControl39.TabIndex = 7;
-            this.labelControl39.Text = resources.GetString("labelControl39.Text");
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.panel4.Controls.Add(this.labelControl35);
+            this.panel4.Controls.Add(this.labelControl33);
+            this.panel4.Location = new System.Drawing.Point(1377, 194);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(336, 188);
+            this.panel4.TabIndex = 36;
             // 
-            // labelControl38
+            // labelControl35
             // 
-            this.labelControl38.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl38.Appearance.Options.UseFont = true;
-            this.labelControl38.Location = new System.Drawing.Point(407, 20);
-            this.labelControl38.Name = "labelControl38";
-            this.labelControl38.Size = new System.Drawing.Size(213, 25);
-            this.labelControl38.TabIndex = 6;
-            this.labelControl38.Text = "Arızalı Ürün İstatistikleri";
+            this.labelControl35.Appearance.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl35.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControl35.Appearance.Options.UseFont = true;
+            this.labelControl35.Appearance.Options.UseForeColor = true;
+            this.labelControl35.Location = new System.Drawing.Point(135, 95);
+            this.labelControl35.Name = "labelControl35";
+            this.labelControl35.Size = new System.Drawing.Size(65, 39);
+            this.labelControl35.TabIndex = 2;
+            this.labelControl35.Text = "584";
+            // 
+            // labelControl33
+            // 
+            this.labelControl33.Appearance.Font = new System.Drawing.Font("Georgia", 14F);
+            this.labelControl33.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControl33.Appearance.Options.UseFont = true;
+            this.labelControl33.Appearance.Options.UseForeColor = true;
+            this.labelControl33.Location = new System.Drawing.Point(65, 16);
+            this.labelControl33.Name = "labelControl33";
+            this.labelControl33.Size = new System.Drawing.Size(203, 27);
+            this.labelControl33.TabIndex = 1;
+            this.labelControl33.Text = "Toplam Ürün Sayısı";
             // 
             // Frm_ArizaListesi
             // 

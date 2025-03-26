@@ -30,28 +30,48 @@ namespace TeknikServis.Formlar
                               x.GELISTARIH,
                               x.CIKISTARIH,
                               x.URUNSERINO,
-                              //x.URUNDURUMDETAY
+                              x.URUNDURUMDETAY
                           };
             gridControl1.DataSource = degeler.ToList();
         }
         private void Frm_ArizaListesi_Load(object sender, EventArgs e)
         {
             listele();
-            //labelControl3.Text = db.TBL_URUNKABUL.Count(x => x.UrunDurum == true).ToString();
-            //labelControl5.Text = db.TBL_URUNKABUL.Count(x => x.UrunDurum == false).ToString();
-            //labelControl13.Text = db.TBL_URUN.Count().ToString();
-            //labelControl7.Text = db.TBL_URUNKABUL.Count(x => x.UrunDurumDetay == "Parça Bekliyor.").ToString();
-            //labelControl15.Text = db.TBL_URUNKABUL.Count(x => x.UrunDurumDetay == "Mesaj Bekliyor.").ToString();
-            //labelControl11.Text = db.TBL_URUNKABUL.Count(x => x.UrunDurumDetay == "İptal Bekliyor.").ToString();
+            labelControl3.Text = db.TBL_URUNKABUL.Count(x => x.URUNDURUM == true).ToString();
+            labelControl2.Text = db.TBL_URUNKABUL.Count(x => x.URUNDURUM == false).ToString();
+            labelControl35.Text = db.TBL_URUN.Count().ToString();
+            labelControl20.Text = db.TBL_URUNKABUL.Count(x => x.URUNDURUMDETAY == "Parça Bekliyor").ToString();
+            labelControl22.Text = db.TBL_URUNKABUL.Count(x => x.URUNDURUMDETAY == "Mesaj Bekliyor").ToString();
+            labelControl37.Text = db.TBL_URUNKABUL.Count(x => x.URUNDURUMDETAY == "İptal Bekliyor").ToString();
 
-            //baglanti.Open();
-            //SqlCommand komut = new SqlCommand("select UrunDurumDetay,count(*) from Tbl_UrunKabul group by UrunDurumDetay", baglanti);
-            //SqlDataReader dr = komut.ExecuteReader();
-            //while (dr.Read())
-            //{
-            //    chartControl1.Series["Series 1"].Points.AddPoint(dr[0].ToString(), int.Parse(dr[1].ToString()));
-            //}
-            //baglanti.Close();
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("select URUNDURUMDETAY,count(*) from TBL_URUNKABUL group by URUNDURUMDETAY", baglanti);
+            SqlDataReader dr = komut.ExecuteReader();
+            while (dr.Read())
+            {
+                chartControl1.Series["Series 1"].Points.AddPoint(dr[0].ToString(), int.Parse(dr[1].ToString()));
+            }
+            baglanti.Close();
+        }
+
+
+       
+        private void gridView1_DoubleClick_1(object sender, EventArgs e)
+        {
+            var islemid = gridView1.GetFocusedRowCellValue("ISLEMID");
+            var urunserino = gridView1.GetFocusedRowCellValue("URUNSERINO");
+
+            if (islemid != null && urunserino != null)
+            {
+                Frm_ArizaDetaylar fr = new Frm_ArizaDetaylar();
+                fr.id = islemid.ToString();
+                fr.serino = urunserino.ToString();
+                fr.Show();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen geçerli bir satır seçin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

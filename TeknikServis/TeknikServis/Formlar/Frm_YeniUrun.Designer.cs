@@ -82,7 +82,8 @@
             this.lookUpEdit1.Properties.DisplayMember = "AD";
             this.lookUpEdit1.Properties.ValueMember = "ID";
             this.lookUpEdit1.Size = new System.Drawing.Size(199, 28);
-            this.lookUpEdit1.TabIndex = 24;
+            this.lookUpEdit1.TabIndex = 3;
+            this.lookUpEdit1.EditValueChanged += new System.EventHandler(this.lookUpEdit1_EditValueChanged);
             // 
             // btnvazgec
             // 
@@ -92,7 +93,7 @@
             this.btnvazgec.Location = new System.Drawing.Point(197, 396);
             this.btnvazgec.Name = "btnvazgec";
             this.btnvazgec.Size = new System.Drawing.Size(145, 45);
-            this.btnvazgec.TabIndex = 31;
+            this.btnvazgec.TabIndex = 8;
             this.btnvazgec.Text = "Vazgeç";
             this.btnvazgec.Click += new System.EventHandler(this.btnvazgec_Click);
             // 
@@ -104,7 +105,7 @@
             this.btnkaydet.Location = new System.Drawing.Point(59, 396);
             this.btnkaydet.Name = "btnkaydet";
             this.btnkaydet.Size = new System.Drawing.Size(122, 45);
-            this.btnkaydet.TabIndex = 30;
+            this.btnkaydet.TabIndex = 7;
             this.btnkaydet.Text = "Kaydet";
             this.btnkaydet.Click += new System.EventHandler(this.btnkaydet_Click);
             // 
@@ -176,7 +177,7 @@
             this.txtstok.Properties.Appearance.Options.UseForeColor = true;
             this.txtstok.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.txtstok.Size = new System.Drawing.Size(200, 28);
-            this.txtstok.TabIndex = 28;
+            this.txtstok.TabIndex = 6;
             this.txtstok.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtstok_MouseClick);
             // 
             // panel3
@@ -236,7 +237,7 @@
             this.txtsatisfiyat.Properties.Appearance.Options.UseForeColor = true;
             this.txtsatisfiyat.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.txtsatisfiyat.Size = new System.Drawing.Size(200, 28);
-            this.txtsatisfiyat.TabIndex = 26;
+            this.txtsatisfiyat.TabIndex = 5;
             this.txtsatisfiyat.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtsatisfiyat_MouseClick);
             // 
             // panel2
@@ -274,7 +275,7 @@
             this.txtalisfiyat.Properties.Appearance.Options.UseForeColor = true;
             this.txtalisfiyat.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.txtalisfiyat.Size = new System.Drawing.Size(200, 28);
-            this.txtalisfiyat.TabIndex = 25;
+            this.txtalisfiyat.TabIndex = 4;
             this.txtalisfiyat.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtalisfiyat_MouseClick);
             // 
             // pictureEdit2
@@ -312,7 +313,7 @@
             this.txtmarka.Properties.Appearance.Options.UseForeColor = true;
             this.txtmarka.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.txtmarka.Size = new System.Drawing.Size(200, 28);
-            this.txtmarka.TabIndex = 21;
+            this.txtmarka.TabIndex = 2;
             this.txtmarka.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtmarka_MouseClick);
             // 
             // pictureEdit1
@@ -341,7 +342,7 @@
             this.txturunad.Properties.Appearance.Options.UseForeColor = true;
             this.txturunad.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.txturunad.Size = new System.Drawing.Size(200, 28);
-            this.txturunad.TabIndex = 20;
+            this.txturunad.TabIndex = 1;
             this.txturunad.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txturunad_MouseClick);
             // 
             // FrmYeniUrun
@@ -374,7 +375,7 @@
             this.Controls.Add(this.txturunad);
             this.Name = "FrmYeniUrun";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Frm_YeniUrun";
+            this.Text = "YENİ ÜRÜN";
             this.Load += new System.EventHandler(this.FrmYeniUrun_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).EndInit();

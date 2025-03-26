@@ -18,7 +18,7 @@ namespace TeknikServis
         public Nullable<int> ISLEM { get; set; }
         public string SORUN { get; set; }
         public string ACIKLAMA { get; set; }
-        public Nullable<decimal> ONFIYAT { get; set; }
+        public Nullable<decimal> SONFIYAT { get; set; }
         public Nullable<decimal> NETFIYAT { get; set; }
         public string ISLEMLER { get; set; }
     }
