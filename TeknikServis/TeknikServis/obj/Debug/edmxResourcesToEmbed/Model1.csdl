@@ -147,7 +147,7 @@
     <Property Name="CARI" Type="Int32" />
     <Property Name="PERSONEL" Type="Int16" />
     <Property Name="GELISTARIH" Type="DateTime" Precision="0" />
-    <Property Name="CIKISTARIH" Type="DateTime" Precision="0" />
+    <Property Name="CIKISTARIH" Type="DateTime" Precision="3" />
     <NavigationProperty Name="TBL_CARİ" Relationship="Self.FK_TBL_URUNKABUL_TBL_CARİ" FromRole="TBL_URUNKABUL" ToRole="TBL_CARİ" />
     <NavigationProperty Name="TBL_PERSONEL" Relationship="Self.FK_TBL_URUNKABUL_TBL_PERSONEL" FromRole="TBL_URUNKABUL" ToRole="TBL_PERSONEL" />
     <Property Name="URUNSERINO" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />

@@ -183,7 +183,7 @@
     <Property Name="CARI" Type="int" />
     <Property Name="PERSONEL" Type="smallint" />
     <Property Name="GELISTARIH" Type="smalldatetime" />
-    <Property Name="CIKISTARIH" Type="smalldatetime" />
+    <Property Name="CIKISTARIH" Type="datetime" />
     <Property Name="URUNSERINO" Type="char" MaxLength="5" />
     <Property Name="URUNDURUM" Type="bit" />
     <Property Name="URUNDURUMDETAY" Type="varchar" MaxLength="30" />

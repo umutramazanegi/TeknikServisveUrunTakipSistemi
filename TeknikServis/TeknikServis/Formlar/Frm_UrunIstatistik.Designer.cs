@@ -711,7 +711,7 @@
             this.labelControl27.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl27.Appearance.Options.UseFont = true;
             this.labelControl27.Appearance.Options.UseForeColor = true;
-            this.labelControl27.Location = new System.Drawing.Point(103, 92);
+            this.labelControl27.Location = new System.Drawing.Point(44, 92);
             this.labelControl27.Name = "labelControl27";
             this.labelControl27.Size = new System.Drawing.Size(88, 39);
             this.labelControl27.TabIndex = 1;
@@ -951,7 +951,7 @@
             this.labelControl17.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.Appearance.Options.UseForeColor = true;
-            this.labelControl17.Location = new System.Drawing.Point(103, 87);
+            this.labelControl17.Location = new System.Drawing.Point(44, 91);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(88, 39);
             this.labelControl17.TabIndex = 1;
