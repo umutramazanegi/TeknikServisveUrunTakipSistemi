@@ -86,12 +86,12 @@ namespace TeknikServis.Formlar
             listele();
             temizle();
         }
-
+        
         private void gridView1_DoubleClick(object sender, EventArgs e)
         {
-            //FrmFaturaKalemPopUp fr = new FrmFaturaKalemPopUp();
-            //fr.id = int.Parse(gridView1.GetFocusedRowCellValue("Id").ToString());
-            //fr.Show();
+            Frm_FaturaKalemPopUp fr = new Frm_FaturaKalemPopUp();
+            fr.id = int.Parse(gridView1.GetFocusedRowCellValue("ID").ToString());
+            fr.Show();
         }
 
         private void txtseri_EditValueChanged(object sender, EventArgs e)

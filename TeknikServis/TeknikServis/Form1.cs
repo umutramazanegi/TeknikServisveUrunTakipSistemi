@@ -304,9 +304,43 @@ namespace TeknikServis
             }
         }
 
-        private void barButtonItem19_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        Formlar.Frm_FaturaKalemPopUp frpop;
+        private void btnpop_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            if (frpop == null || frpop.IsDisposed)
+            {
+                frpop = new Formlar.Frm_FaturaKalemPopUp();
+                frpop.Show();
+            }
+        }
+        İletisim.FrmRehber friletisim;
+        private void btnRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (friletisim == null || fra.IsDisposed)
+            {
+                friletisim = new İletisim.FrmRehber();
+                friletisim.MdiParent = this;
+                friletisim.Show();
+            }
+        }
+        İletisim.FrmGelenMesajlar frmGelenMesaj;
+        private void btnGelenMesajlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frmGelenMesaj == null || frmGelenMesaj.IsDisposed)
+            {
+                frmGelenMesaj = new İletisim.FrmGelenMesajlar();
+                frmGelenMesaj.MdiParent = this;
+                frmGelenMesaj.Show();
+            }
+        }
+        İletisim.FrmMail frmMail;
+        private void btnMail_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frmMail == null || frmMail.IsDisposed)
+            {
+                frmMail = new İletisim.FrmMail();
+                frmMail.Show();
+            }
         }
     } 
 }

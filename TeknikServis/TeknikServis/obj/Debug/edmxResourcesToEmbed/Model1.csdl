@@ -113,8 +113,8 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="AD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <Property Name="MARKA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="AD" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MARKA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="ALISFIYAT" Type="Decimal" Precision="18" Scale="2" />
     <Property Name="SATISFIYAT" Type="Decimal" Precision="18" Scale="2" />
     <Property Name="STOK" Type="Int16" />

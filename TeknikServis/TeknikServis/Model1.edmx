@@ -159,8 +159,8 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="AD" Type="varchar" MaxLength="30" />
-          <Property Name="MARKA" Type="varchar" MaxLength="30" />
+          <Property Name="AD" Type="varchar" MaxLength="100" />
+          <Property Name="MARKA" Type="varchar" MaxLength="100" />
           <Property Name="ALISFIYAT" Type="decimal" Precision="18" Scale="2" />
           <Property Name="SATISFIYAT" Type="decimal" Precision="18" Scale="2" />
           <Property Name="STOK" Type="smallint" />
@@ -522,8 +522,8 @@
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="AD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="MARKA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="AD" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MARKA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="ALISFIYAT" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="SATISFIYAT" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="STOK" Type="Int16" />

@@ -277,7 +277,7 @@
             this.labelControl33.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl33.Appearance.Options.UseFont = true;
             this.labelControl33.Appearance.Options.UseForeColor = true;
-            this.labelControl33.Location = new System.Drawing.Point(167, 67);
+            this.labelControl33.Location = new System.Drawing.Point(31, 67);
             this.labelControl33.Name = "labelControl33";
             this.labelControl33.Size = new System.Drawing.Size(215, 39);
             this.labelControl33.TabIndex = 1;
@@ -373,7 +373,7 @@
             this.labelControl35.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl35.Appearance.Options.UseFont = true;
             this.labelControl35.Appearance.Options.UseForeColor = true;
-            this.labelControl35.Location = new System.Drawing.Point(155, 73);
+            this.labelControl35.Location = new System.Drawing.Point(48, 73);
             this.labelControl35.Name = "labelControl35";
             this.labelControl35.Size = new System.Drawing.Size(192, 39);
             this.labelControl35.TabIndex = 1;
@@ -421,7 +421,7 @@
             this.labelControl23.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl23.Appearance.Options.UseFont = true;
             this.labelControl23.Appearance.Options.UseForeColor = true;
-            this.labelControl23.Location = new System.Drawing.Point(167, 67);
+            this.labelControl23.Location = new System.Drawing.Point(23, 73);
             this.labelControl23.Name = "labelControl23";
             this.labelControl23.Size = new System.Drawing.Size(215, 39);
             this.labelControl23.TabIndex = 1;
@@ -615,7 +615,7 @@
             this.labelControl25.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl25.Appearance.Options.UseFont = true;
             this.labelControl25.Appearance.Options.UseForeColor = true;
-            this.labelControl25.Location = new System.Drawing.Point(131, 73);
+            this.labelControl25.Location = new System.Drawing.Point(48, 73);
             this.labelControl25.Name = "labelControl25";
             this.labelControl25.Size = new System.Drawing.Size(192, 39);
             this.labelControl25.TabIndex = 1;

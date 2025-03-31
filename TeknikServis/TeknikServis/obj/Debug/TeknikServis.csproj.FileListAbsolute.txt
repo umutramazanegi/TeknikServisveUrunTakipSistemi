@@ -568,3 +568,8 @@ C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\bin\Deb
 C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.Formlar.FrmRapor.resources
 C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.Raporlar.XtraReport1.resources
 C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.Formlar.FrmAnaSayfa.resources
+C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.Formlar.Frm_FaturaKalemPopUp.resources
+C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.İletisim.FrmRehber.resources
+C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.İletisim.FrmGelenMesajlar.resources
+C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.İletisim.FrmMail.resources
+C:\Github\-Teknik-Servis-ve-Urun-Takip-Sistemi\TeknikServis\TeknikServis\obj\Debug\TeknikServis.Formlar.FrmLogin.resources

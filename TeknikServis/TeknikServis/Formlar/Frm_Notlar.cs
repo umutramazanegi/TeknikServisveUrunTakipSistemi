@@ -48,7 +48,7 @@ namespace TeknikServis.Formlar
             t.BASLIK = txtbaslik.Text;
             t.ICERIK = txticerik.Text;
             t.DURUM = false;
-            //t.TARIH = DateTime.Parse(txttarih.Text);
+            t.TARIH = DateTime.Parse(txttarih.Text);
             db.TBL_NOTLARIM.Add(t);
             db.SaveChanges();
             MessageBox.Show("Not Başarıyla Keydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);

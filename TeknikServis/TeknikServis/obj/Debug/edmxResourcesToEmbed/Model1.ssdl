@@ -154,8 +154,8 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="AD" Type="varchar" MaxLength="30" />
-    <Property Name="MARKA" Type="varchar" MaxLength="30" />
+    <Property Name="AD" Type="varchar" MaxLength="100" />
+    <Property Name="MARKA" Type="varchar" MaxLength="100" />
     <Property Name="ALISFIYAT" Type="decimal" Precision="18" Scale="2" />
     <Property Name="SATISFIYAT" Type="decimal" Precision="18" Scale="2" />
     <Property Name="STOK" Type="smallint" />
