@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace TeknikServis.Formlar
 {
     public partial class Frm_CariEkle : Form
@@ -17,13 +17,14 @@ namespace TeknikServis.Formlar
             InitializeComponent();
             pictureEdit12.Click += pictureEdit12_Click;
         }
-
+     
         private void btnvazgec_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         DbTeknikServisEntities db = new DbTeknikServisEntities();
-
+        int secilen;
+        SqlConnection baglanti = new SqlConnection(@"Data Source=UMUT\SQLEXPRESS;Initial Catalog=DbTeknikServis;Integrated Security=True");
         private void btnkaydet_Click(object sender, EventArgs e)
         {
             try
@@ -54,27 +55,33 @@ namespace TeknikServis.Formlar
         {
             lookUpEdit1.Properties.NullText = "Bir Değer Seçiniz...";
             lookUpEdit2.Properties.NullText = "Bir Değer Seçiniz...";
-            //lookUpEdit2.Properties.DataSource = (from x in dbo.iller
-            //                                     select new
-            //                                     {
-            //                                         x.id,
-            //                                         x.sehir
-            //                                     }).ToList();
-            
-        }
+            lookUpEdit2.Properties.DataSource = (from x in db.iller
+                                                 select new
+                                                 {
+                                                     x.id,
+                                                     x.sehir
+                                                 }).ToList();
 
-        //private void pictureEdit12_EditValueChanged(object sender, EventArgs e)
-        //{
-        //    //Form openForm = Application.OpenForms["Frm_CariEkle"];
-        ////    if (openForm != null)
-        ////    {
-        ////        openForm.Close();
-        ////    }
-        //}
+        }
+        
 
         private void pictureEdit12_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void lookUpEdit2_EditValueChanged(object sender, EventArgs e)
+        {
+            
+            secilen = int.Parse(lookUpEdit2.EditValue.ToString());
+            lookUpEdit1.Properties.DataSource = (from y in db.ilceler
+                                                  select new
+                                                   {
+                                                      y.id,
+                                                      y.ilce,
+                                                      y.sehir
+                                                  }).Where(z => z.sehir == secilen).ToList();
+            
         }
     }
 }

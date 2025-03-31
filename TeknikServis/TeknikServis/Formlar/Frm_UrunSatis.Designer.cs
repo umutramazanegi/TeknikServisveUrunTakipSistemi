@@ -49,7 +49,7 @@
             this.txtadet = new DevExpress.XtraEditors.TextEdit();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureEdit5 = new DevExpress.XtraEditors.PictureEdit();
-            this.txttarih = new DevExpress.XtraEditors.TextEdit();
+            this.dateEditTarih = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
@@ -64,7 +64,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtadet.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txttarih.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditTarih.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
@@ -83,7 +83,7 @@
             this.luepersonel.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.luepersonel.Properties.DisplayMember = "Ad";
-            this.luepersonel.Properties.ValueMember = "Id";
+            this.luepersonel.Properties.ValueMember = "ID";
             this.luepersonel.Size = new System.Drawing.Size(196, 28);
             this.luepersonel.TabIndex = 45;
             // 
@@ -101,7 +101,7 @@
             this.luecari.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.luecari.Properties.DisplayMember = "Ad";
-            this.luecari.Properties.ValueMember = "Id";
+            this.luecari.Properties.ValueMember = "ID";
             this.luecari.Size = new System.Drawing.Size(196, 28);
             this.luecari.TabIndex = 44;
             // 
@@ -118,8 +118,8 @@
             this.lueuruid.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.lueuruid.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lueuruid.Properties.DisplayMember = "Ad";
-            this.lueuruid.Properties.ValueMember = "Id";
+            this.lueuruid.Properties.DisplayMember = "AD";
+            this.lueuruid.Properties.ValueMember = "ID";
             this.lueuruid.Size = new System.Drawing.Size(196, 28);
             this.lueuruid.TabIndex = 43;
             // 
@@ -328,23 +328,23 @@
             this.pictureEdit5.Size = new System.Drawing.Size(27, 30);
             this.pictureEdit5.TabIndex = 58;
             // 
-            // txttarih
+            // dateEditTarih
             // 
-            this.txttarih.EditValue = "Tarih...";
-            this.txttarih.Location = new System.Drawing.Point(75, 204);
-            this.txttarih.Name = "txttarih";
-            this.txttarih.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.txttarih.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txttarih.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.txttarih.Properties.Appearance.Options.UseBackColor = true;
-            this.txttarih.Properties.Appearance.Options.UseFont = true;
-            this.txttarih.Properties.Appearance.Options.UseForeColor = true;
-            this.txttarih.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txttarih.Properties.Mask.EditMask = "99/99/0000";
-            this.txttarih.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple;
-            this.txttarih.Size = new System.Drawing.Size(197, 28);
-            this.txttarih.TabIndex = 46;
-            this.txttarih.Click += new System.EventHandler(this.txttarih_Click);
+            this.dateEditTarih.EditValue = "Tarih...";
+            this.dateEditTarih.Location = new System.Drawing.Point(75, 204);
+            this.dateEditTarih.Name = "dateEditTarih";
+            this.dateEditTarih.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.dateEditTarih.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateEditTarih.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.dateEditTarih.Properties.Appearance.Options.UseBackColor = true;
+            this.dateEditTarih.Properties.Appearance.Options.UseFont = true;
+            this.dateEditTarih.Properties.Appearance.Options.UseForeColor = true;
+            this.dateEditTarih.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.dateEditTarih.Properties.Mask.EditMask = "99/99/0000";
+            this.dateEditTarih.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple;
+            this.dateEditTarih.Size = new System.Drawing.Size(197, 28);
+            this.dateEditTarih.TabIndex = 46;
+            this.dateEditTarih.Click += new System.EventHandler(this.txttarih_Click);
             // 
             // pictureEdit2
             // 
@@ -408,7 +408,7 @@
             this.Controls.Add(this.txtadet);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureEdit5);
-            this.Controls.Add(this.txttarih);
+            this.Controls.Add(this.dateEditTarih);
             this.Controls.Add(this.pictureEdit2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureEdit1);
@@ -429,7 +429,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtadet.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txttarih.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditTarih.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
@@ -459,7 +459,7 @@
         private DevExpress.XtraEditors.TextEdit txtadet;
         private System.Windows.Forms.Panel panel2;
         private DevExpress.XtraEditors.PictureEdit pictureEdit5;
-        private DevExpress.XtraEditors.TextEdit txttarih;
+        private DevExpress.XtraEditors.TextEdit dateEditTarih;
         private DevExpress.XtraEditors.PictureEdit pictureEdit2;
         private System.Windows.Forms.Panel panel1;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;

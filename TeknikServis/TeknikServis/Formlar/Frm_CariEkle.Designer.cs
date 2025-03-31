@@ -112,8 +112,8 @@
             this.lookUpEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit1.Properties.DisplayMember = "ILCE";
-            this.lookUpEdit1.Properties.ValueMember = "ID";
+            this.lookUpEdit1.Properties.DisplayMember = "ilce";
+            this.lookUpEdit1.Properties.ValueMember = "id";
             this.lookUpEdit1.Size = new System.Drawing.Size(199, 28);
             this.lookUpEdit1.TabIndex = 89;
             // 
@@ -130,10 +130,11 @@
             this.lookUpEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.lookUpEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit2.Properties.DisplayMember = "SEHIR";
-            this.lookUpEdit2.Properties.ValueMember = "ID";
+            this.lookUpEdit2.Properties.DisplayMember = "sehir";
+            this.lookUpEdit2.Properties.ValueMember = "id";
             this.lookUpEdit2.Size = new System.Drawing.Size(199, 28);
             this.lookUpEdit2.TabIndex = 88;
+            this.lookUpEdit2.EditValueChanged += new System.EventHandler(this.lookUpEdit2_EditValueChanged);
             // 
             // panel13
             // 

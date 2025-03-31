@@ -241,7 +241,7 @@
             this.labelControl9.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl9.Appearance.Options.UseFont = true;
             this.labelControl9.Appearance.Options.UseForeColor = true;
-            this.labelControl9.Location = new System.Drawing.Point(120, 88);
+            this.labelControl9.Location = new System.Drawing.Point(69, 97);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(65, 39);
             this.labelControl9.TabIndex = 6;
@@ -309,7 +309,7 @@
             this.labelControl13.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl13.Appearance.Options.UseFont = true;
             this.labelControl13.Appearance.Options.UseForeColor = true;
-            this.labelControl13.Location = new System.Drawing.Point(82, 78);
+            this.labelControl13.Location = new System.Drawing.Point(59, 97);
             this.labelControl13.Name = "labelControl13";
             this.labelControl13.Size = new System.Drawing.Size(65, 39);
             this.labelControl13.TabIndex = 6;
