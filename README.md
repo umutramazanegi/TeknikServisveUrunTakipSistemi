@@ -6,11 +6,9 @@ Bu projenin geliştirilmesinde **Murat Yücedağ** hocamızın eğitimlerinden b
 
 ## 📸 Ekran Görüntüleri
 
-*(Buraya projenizden birkaç etkileyici ekran görüntüsü eklemeyi unutmayın! Örneğin: Login Ekranı, Ana Modül, Ürün Listesi, Fatura Detayı, Web Anasayfası vb.)*
-
-![Login Ekranı](link_ekran_goruntusu_1.png)
-![Ana Modül](link_ekran_goruntusu_2.png)
-![Ürün Listesi](link_ekran_goruntusu_3.png)
+![PERSONEL ISLEMLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/PERSONEL_ISLEMLERI.png?raw=true)
+![MARKA ISTATISTIKLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/MARKA_ISTATISTIKLERI.png?raw=true)
+![ÜRÜN ISTATISTIKLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/URUN_ISTATISTIKLERI.png?raw=true)
 ![Web Arayüzü](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/WEB_ANASAYFA.png?raw=true)
 
 ## ✨ Temel Özellikler
