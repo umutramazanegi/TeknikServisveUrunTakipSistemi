@@ -4,13 +4,6 @@ Herkese merhaba! 👋 Bu repo, C# programlama dili ve DevExpress arayüz kontrol
 
 Bu projenin geliştirilmesinde **Murat Yücedağ** hocamızın eğitimlerinden büyük ölçüde faydalanılmıştır. Kendisine değerli katkıları için teşekkürlerimi sunarım. 🙏
 
-## 📸 Ekran Görüntüleri
-
-![PERSONEL ISLEMLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/PERSONEL_ISLEMLERI.png?raw=true)
-![MARKA ISTATISTIKLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/MARKA_ISTATISTIKLERI.png?raw=true)
-![ÜRÜN ISTATISTIKLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/URUN_ISTATISTIKLERI.png?raw=true)
-![Web Arayüzü](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/WEB_ANASAYFA.png?raw=true)
-
 ## ✨ Temel Özellikler
 
 ### 🖥️ Masaüstü Uygulaması (Yönetim Paneli)
@@ -72,5 +65,11 @@ Bu projenin geliştirilmesinde yol gösterici olan **Murat Yücedağ**'ın eğit
 ## 📧 İletişim
 
 Proje ile ilgili soru veya geri bildirimleriniz için benimle iletişime geçebilirsiniz: https://umutramazanegi.com/blog/projelerim/
+## 📸 Ekran Görüntüleri
+
+![PERSONEL ISLEMLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/PERSONEL_ISLEMLERI.png?raw=true)
+![MARKA ISTATISTIKLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/MARKA_ISTATISTIKLERI.png?raw=true)
+![ÜRÜN ISTATISTIKLERI](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/URUN_ISTATISTIKLERI.png?raw=true)
+![Web Arayüzü](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/WEB_ANASAYFA.png?raw=true)
 
 --
