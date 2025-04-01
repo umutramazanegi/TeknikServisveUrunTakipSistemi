@@ -11,7 +11,7 @@ Bu projenin geliştirilmesinde **Murat Yücedağ** hocamızın eğitimlerinden b
 ![Login Ekranı](link_ekran_goruntusu_1.png)
 ![Ana Modül](link_ekran_goruntusu_2.png)
 ![Ürün Listesi](link_ekran_goruntusu_3.png)
-![Web Arayüzü](link_ekran_goruntusu_4.png)
+![Web Arayüzü](https://github.com/umutramazanegi/TeknikServisveUrunTakipSistemi/blob/main/PROJE_GORSEL/WEB_ANASAYFA.png?raw=true)
 
 ## ✨ Temel Özellikler
 
