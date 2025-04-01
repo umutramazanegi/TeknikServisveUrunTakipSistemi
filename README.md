@@ -66,27 +66,6 @@ Bu projenin geliştirilmesinde **Murat Yücedağ** hocamızın eğitimlerinden b
 *   **🌐 Web Teknolojileri (Tahmini):** ASP.NET (MVC veya Web Forms - belirtilmemişse genel yazılabilir), HTML, CSS, JavaScript
 *   **🗄️ Veritabanı Sunucusu (Tahmini):** Microsoft SQL Server
 
-## ⚙️ Kurulum ve Çalıştırma
-
-1.  **Repository'yi Klonlayın:**
-    ```bash
-    git clone https://github.com/kullanici-adiniz/proje-repo-adi.git
-    ```
-2.  **Veritabanı Kurulumu:**
-    *   Proje muhtemelen Microsoft SQL Server kullanmaktadır.
-    *   `app.config` (masaüstü) veya `web.config` (web) dosyalarındaki `connectionString`'i kendi SQL Server yapılandırmanıza göre güncelleyin.
-    *   Entity Framework Migrations kullanılıyorsa:
-        *   Visual Studio'da Paket Yöneticisi Konsolu'nu (Package Manager Console) açın.
-        *   `Update-Database` komutunu çalıştırarak veritabanını oluşturun/güncelleyin.
-    *   Eğer veritabanı yedeği (`.bak`) varsa, SQL Server Management Studio (SSMS) kullanarak yedeği geri yükleyin.
-3.  **Projeyi Derleyin:**
-    *   `*.sln` dosyasını Visual Studio ile açın.
-    *   Gerekli NuGet paketlerinin yüklendiğinden emin olun (Restore NuGet Packages).
-    *   Projeyi derleyin (Build Solution - F6 veya Ctrl+Shift+B).
-4.  **Uygulamayı Çalıştırın:**
-    *   Masaüstü uygulamasını başlatmak için derlenen `.exe` dosyasını çalıştırın veya Visual Studio üzerinden Start (F5) yapın.
-    *   **Varsayılan Giriş Bilgileri:** Kullanıcı Adı: `admin`, Şifre: `1234`
-    *   Web uygulamasını çalıştırmak için web projesini Visual Studio üzerinden başlatın (IIS Express veya yerel IIS üzerinde çalışacaktır). Tarayıcınızda belirtilen `localhost` adresi açılacaktır.
 
 ## 🙏 Teşekkür
 
@@ -94,8 +73,6 @@ Bu projenin geliştirilmesinde yol gösterici olan **Murat Yücedağ**'ın eğit
 
 ## 📧 İletişim
 
-Proje ile ilgili soru veya geri bildirimleriniz için benimle iletişime geçebilirsiniz: [E-posta Adresiniz] veya [GitHub Profil Linkiniz]
+Proje ile ilgili soru veya geri bildirimleriniz için benimle iletişime geçebilirsiniz: https://umutramazanegi.com/blog/projelerim/
 
----
-
-Umarım bu README.md taslağı işinize yarar! Kendi bilgilerinizi (ekran görüntüleri, GitHub linkleri, e-posta) eklemeyi unutmayın. Başarılar! 🎉
+--
